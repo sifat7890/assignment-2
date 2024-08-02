@@ -33,6 +33,7 @@
     border-radius: 70px;
     margin-top: 25px;
     color: white;
+    font-size: 18px;
 }
 
 body {
@@ -93,8 +94,8 @@ body {
 .banner {
     display: flex;
     max-width:  1160px;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    
     margin: 0 auto;
     flex-direction: row;
 }
@@ -265,7 +266,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 25px;
     height:325px ;
     
 }
@@ -291,7 +292,74 @@ img {
     align-items: center;
    
     border: 2px solid rgb(56, 55, 55);
+    
 }
+.card-container p{
+    height: 98px;
+}
+.exercise-section{
+    max-width: 1160px;
+    margin: 0 auto;
+
+
+
+}
+.exercise{
+
+    display: flex;
+    justify-content:space-between;
+    
+    height: 380px;
+   padding: 80px 40px 60px 80px;
+    margin-top: 40px;
+    align-items: center;
+    background-color:#222222 ;
+    border-radius: 20px;
+}
+.exercise-container{
+  max-width:470px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+  
+
+}
+.exercise-container h1{
+  color: white;
+  
+  font-size: 3rem;
+  font-weight: 900;
+
+}
+.exercise-container p{
+    color: #FFFFFF80;
+    font-size: 1rem;
+    font-weight:400;
+    height: 70px;
+    margin-top: 10px;
+    
+  
+  }
+.exercise img{
+    max-width: 365px;
+    height: 325px;
+    object-fit: none;
+    object-position: 68% 30% ;
+    border-radius: 20px;
+    margin: 0px 20px 20px 10px;
+       
+}
+
+
+
+
+
+
+
 /* For responsive */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -359,10 +427,13 @@ img {
         width: 355px;
         margin: 0 auto;
     }
-
+  
     .banner-tittle {
         font-size: 2.2rem;
 
+    }
+    .habits{
+        margin-top: 50px;
     }
     .habits-description {
        display: flex;
@@ -371,6 +442,7 @@ img {
        align-items: center;
        text-align: center;
        max-width: 353px;
+       
      
     }
     .habits-description p{
@@ -382,14 +454,52 @@ img {
         display: grid;
         grid-template-columns: repeat(1 ,1fr);
         
-        height: 1400px;
+        height: 1300px;
     }
     .card-container{
         margin: 0 auto;
        
         gap: 10px;
     }
+    .exercise{
 
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        height:570px;
+        row-gap: 25px;
+       
+    }
+    .exercise-container{
+      max-width: 350px;
+      height: 266px;
+      
+
+    }
+    .exercise h1{
+     font-size: 2rem;
+      }
+      .exercise p{
+       font-size: .9rem;
+       line-height: 20px;
+
+      }
+      .exercise button{
+       
+       width:100%;
+       margin-top: 30px;
+
+      }
+    .exercise img{
+     width: 95%;
+     height: 200px;
+     object-fit: cover;
+     
+    
+    }
+    .exercise-section{
+        max-width: 470px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -450,6 +560,38 @@ img {
         height: 650px;
         padding-left: 25px;
        }
-    
+       .exercise-section{
+         max-width: 700px;
+       }
+      .exercise{
+       padding: 0px 10px 0px 30px;
+        
+      }
+       .exercise h1{
+        font-size: 2.1rem;
+
+       }
+       .exercise p{
+        font-size: .8rem;
+        line-height: 16px;
+
+       }
+       
+       .exercise-container{
+        height: 300px;
+        max-width: 264px;
+        align-items: flex-start;
+        margin-bottom: -10px;
+        
+    }
+    .exercise img{
+        max-width: 260px;
+        height: 300px;
+        object-fit: none;
+        object-position: 68% 30% ;
+        border-radius: 20px;
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
     
 }
