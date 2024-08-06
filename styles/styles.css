@@ -57,7 +57,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    max-width:  1160px;
+    max-width: 1160px;
     padding: 30px 0 30px;
 }
 
@@ -93,9 +93,9 @@ body {
 /* banner styles */
 .banner {
     display: flex;
-    max-width:  1160px;
+    max-width: 1160px;
     justify-content: space-between;
-    
+
     margin: 0 auto;
     flex-direction: row;
 }
@@ -162,7 +162,7 @@ body {
     position: absolute;
     display: flex;
     flex-direction: column;
-    
+
     padding: 15px;
     align-items: start;
     bottom: 360px;
@@ -257,21 +257,23 @@ img {
     justify-content: center;
 
 }
-.habits-description p{
+
+.habits-description p {
     margin: 10px;
     height: 40px;
-    
+
 }
+
 .card-container-section {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 25px;
-    height:325px ;
-    
+    height: 325px;
+
 }
 
-.card-container  {
+.card-container {
     width: 250px;
     height: 310px;
     display: flex;
@@ -280,9 +282,10 @@ img {
     align-items: center;
     gap: 10px;
     text-align: center;
-    
+
 }
-.card-container img{
+
+.card-container img {
     max-width: 100%;
     height: 225px;
     margin-top: 20px;
@@ -290,73 +293,320 @@ img {
     display: flex;
     justify-items: center;
     align-items: center;
-   
+
     border: 2px solid rgb(56, 55, 55);
-    
+
 }
-.card-container p{
+
+.card-container p {
     height: 98px;
 }
-.exercise-section{
+
+.exercise-section {
     max-width: 1160px;
     margin: 0 auto;
 
 
 
 }
-.exercise{
+
+.exercise {
 
     display: flex;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+
     height: 380px;
-   padding: 80px 40px 60px 80px;
+    padding: 80px 40px 60px 80px;
     margin-top: 40px;
     align-items: center;
-    background-color:#222222 ;
+    background-color: #222222;
     border-radius: 20px;
 }
-.exercise-container{
-  max-width:470px;
-  height: 290px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin-bottom: 10px;
-  
-  
+
+.exercise-container {
+    max-width: 470px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
 
 }
-.exercise-container h1{
-  color: white;
-  
-  font-size: 3rem;
-  font-weight: 900;
+
+.exercise-container h1 {
+    color: white;
+
+    font-size: 3rem;
+    font-weight: 900;
 
 }
-.exercise-container p{
+
+.exercise-container p {
     color: #FFFFFF80;
     font-size: 1rem;
-    font-weight:400;
+    font-weight: 400;
     height: 70px;
     margin-top: 10px;
-    
-  
-  }
-.exercise img{
+
+
+}
+
+.exercise img {
     max-width: 365px;
     height: 325px;
     object-fit: none;
-    object-position: 68% 30% ;
+    object-position: 68% 30%;
     border-radius: 20px;
     margin: 0px 20px 20px 10px;
-       
+
 }
 
 
 
 
+/* training section */
+.training-section {
+    margin: 50px 0px;
+
+
+}
+
+.training-container h1 {
+    color: white;
+    font-size: 3rem;
+    padding: 20px 0px;
+
+}
+
+.training-container p {
+    color: #FFFFFF80;
+    margin-bottom: 20px;
+
+}
+
+.training-image1 {
+    /* height: 460px; */
+    display: grid;
+    grid-template-columns: .50fr 1fr .50fr;
+    grid-template-rows: repeat(1, 250px);
+    margin-top: 40px;
+
+}
+
+.training-image2 {
+    /* height: 460px; */
+    display: grid;
+    grid-template-columns: .80fr .55fr .65fr;
+    grid-template-rows: repeat(1, 250px);
+}
+
+.image-item {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+#img1 {
+    background-image: url('../images/exercise1.jpg');
+}
+
+#img2 {
+    background-image: url('../images/exercise2.png');
+}
+
+#img3 {
+    background-image: url('../images/exercise3.png');
+}
+
+#img4 {
+    background-image: url('../images/exercise4.png');
+}
+
+#img5 {
+    background-image: url('../images/exercise5.jpg');
+}
+
+#img6 {
+    background-image: url('../images/exercise6.jpg');
+}
+
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 255, 210, 0.5);
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.overlay3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+}
+
+.overlay6 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+}
+
+.overlay1 h3 {
+    position: relative;
+    left: 8%;
+    top: 80%;
+    width: 50%;
+
+}
+
+.overlay2 h3 {
+    position: relative;
+    left: 8%;
+    top: 15%;
+    width: 50%;
+    color: white;
+}
+
+.overlay3 h3 {
+    position: relative;
+    left: 8%;
+    top: 80%;
+    width: 50%;
+    color: white;
+}
+
+.overlay4 h3 {
+    position: relative;
+    left: 65%;
+    top: 15%;
+    width: 50%;
+    color: white;
+
+}
+
+.overlay5 h3 {
+    position: relative;
+    left: 8%;
+    top: 80%;
+    width: 50%;
+    color: white;
+}
+
+.overlay6 h3 {
+    position: relative;
+    left: 8%;
+    top: 80%;
+    width: 50%;
+    color: white;
+}
+.bmi-section-container {
+    max-width: 1160px;
+   
+    height: 395px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bmi-section {
+    background: #222222;
+    height: 400px;
+}
+
+.bmi-calculator-chart-box {
+
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    margin-top: 40px;
+
+
+}
+
+.bmi-item {
+    display: grid;
+    grid-template-rows: repeat(1, 42px);
+    border: 1px solid #FFFFFF1A;
+    color:  #FFFFFF80;
+    padding-left: 15px;
+    font-size: 14px;
+    align-items: center;
+
+}
+
+#bmi-item1 {
+    font-weight: 500;
+    color:white;
+    padding-left: 15px;
+    font-size: 16px;
+
+}
+
+.bmi-calculator {
+    max-width: 580px;
+
+}
+
+.bmi-calculator p {
+    margin: 25px 0px;
+    color: #FFFFFF80;
+
+}
+
+.bmi-section h2 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.calculator {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+#input-selector {
+    grid-column: span 2;
+}
+
+.calculator input {
+    height: 48px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.calculator select {
+    height: 48px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+    border-radius: 10px;
+    padding-left: 15px;
+}
 
 
 
@@ -388,11 +638,12 @@ img {
     .banner {
         flex-direction: column;
     }
-    
-    .btn{
+
+    .btn {
         display: flex;
         column-gap: 0;
     }
+
     .banner-container img {
         height: 580px;
         position: relative;
@@ -412,8 +663,9 @@ img {
         left: -20px;
         height: 80px;
         width: 170px;
-        padding-top: 5px;    
+        padding-top: 5px;
     }
+
     .icon {
         height: 25px;
         width: 25px;
@@ -427,80 +679,135 @@ img {
         width: 355px;
         margin: 0 auto;
     }
-  
+
     .banner-tittle {
         font-size: 2.2rem;
 
     }
-    .habits{
+
+    .habits {
         margin-top: 50px;
     }
+
     .habits-description {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       max-width: 353px;
-       
-     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 353px;
+
+
     }
-    .habits-description p{
-      
+
+    .habits-description p {
+
         height: 75px;
-        
+
     }
-    .card-container-section{
+
+    .card-container-section {
         display: grid;
-        grid-template-columns: repeat(1 ,1fr);
-        
+        grid-template-columns: repeat(1, 1fr);
+
         height: 1300px;
     }
-    .card-container{
+
+    .card-container {
         margin: 0 auto;
-       
+
         gap: 10px;
     }
-    .exercise{
+
+    .exercise {
 
         display: flex;
         flex-direction: column;
-        padding: 50px;
-        height:570px;
+        padding: 50px 30px;
+        height: 570px;
         row-gap: 25px;
        
-    }
-    .exercise-container{
-      max-width: 350px;
-      height: 266px;
-      
 
     }
-    .exercise h1{
-     font-size: 2rem;
-      }
-      .exercise p{
-       font-size: .9rem;
-       line-height: 20px;
 
-      }
-      .exercise button{
-       
-       width:100%;
-       margin-top: 30px;
+    .exercise-container {
+        max-width: 350px;
+        height: 266px;
 
-      }
-    .exercise img{
-     width: 95%;
-     height: 200px;
-     object-fit: cover;
-     
-    
+
     }
-    .exercise-section{
+
+    .exercise h1 {
+        font-size: 2rem;
+    }
+
+    .exercise p {
+        font-size: .9rem;
+        line-height: 20px;
+
+    }
+
+    .exercise button {
+
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .exercise img {
+        width: 85%;
+        height: 200px;
+        object-fit: cover;
+        margin-left:  20px;
+
+    }
+
+    .exercise-section {
         max-width: 470px;
     }
+
+    .training-container h1 {
+        
+        font-size: 2rem;
+    
+    }
+    
+    .training-container p {
+      font-size: 14px;
+    }
+    
+    .training-image1{
+        
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .training-image2 {
+        grid-template-columns:.95fr 1.05fr ;
+    }
+  
+    #img3 ,#img6{
+        display: none;
+    }
+   
+    .bmi-section-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        height: 750px;
+      justify-content: space-evenly;
+    
+    }
+
+    .bmi-section {
+        height: 820px;
+    }
+    .bmi-calculator{
+        max-width: 95%;
+    }
+    
 }
+
+
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar {
@@ -510,23 +817,27 @@ img {
 
     .banner {
         flex-direction: column;
-       max-width: 600px;
+        max-width: 600px;
         margin-top: 60px;
     }
-    .nav-item{
+
+    .nav-item {
         padding-bottom: 6px;
     }
+
     .nav-links {
-        width:400px;
+        width: 400px;
         height: 40px;
-       
+
     }
-    #home{
-       height:38px;
-       padding-top: 5px;
-       padding-right: 15px;
-      /* margin-bottom: 10px; */
+
+    #home {
+        height: 38px;
+        padding-top: 5px;
+        padding-right: 15px;
+        /* margin-bottom: 10px; */
     }
+
     .bg-light {
         height: 1250px;
     }
@@ -538,6 +849,7 @@ img {
         width: 100%;
         margin: 0 auto;
     }
+
     .button-section h2 {
         font-size: 1.8rem;
         font-weight: 900;
@@ -546,52 +858,98 @@ img {
     .banner-image-container {
         margin-top: 80px;
     }
-    .banner-image-container{
+
+    .banner-image-container {
 
         display: flex;
         justify-content: center;
     }
-    .habits{
+
+    .habits {
         max-width: 600px;
     }
-    .card-container-section{
+
+    .card-container-section {
         display: grid;
-        grid-template-columns: repeat(2 ,1fr);
+        grid-template-columns: repeat(2, 1fr);
         height: 650px;
         padding-left: 25px;
-       }
-       .exercise-section{
-         max-width: 700px;
-       }
-      .exercise{
-       padding: 0px 10px 0px 30px;
-        
-      }
-       .exercise h1{
+    }
+
+    .exercise-section {
+        max-width: 700px;
+    }
+
+    .exercise {
+        padding: 0px 10px 0px 30px;
+
+    }
+
+    .exercise h1 {
         font-size: 2.1rem;
 
-       }
-       .exercise p{
+    }
+
+    .exercise p {
         font-size: .8rem;
         line-height: 16px;
 
-       }
-       
-       .exercise-container{
+    }
+
+    .exercise-container {
         height: 300px;
         max-width: 264px;
         align-items: flex-start;
         margin-bottom: -10px;
-        
+
     }
-    .exercise img{
+
+    .exercise img {
         max-width: 260px;
         height: 300px;
         object-fit: none;
-        object-position: 68% 30% ;
+        object-position: 68% 30%;
         border-radius: 20px;
         margin-bottom: -20px;
         margin-top: -20px;
     }
+
     
+.training-container h1 {
+  
+    font-size: 2.8rem;
 }
+
+.training-container p {
+    font-size: .9rem;
+
+}
+    .training-image1 {
+       
+        grid-template-columns: .63fr .75fr .62fr;
+      
+    }
+
+    .training-image2 {
+       
+        grid-template-columns: .78fr .57fr .65fr;
+       
+    }
+
+    .bmi-section-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        height: 750px;
+      justify-content: space-evenly;
+      align-items: flex-start;
+    }
+
+    .bmi-section {
+        height: 800px;
+    }
+    .bmi-calculator{
+        max-width: 100%;
+    }
+}
+/* <i class="fa-solid fa-chevron-down"> */
