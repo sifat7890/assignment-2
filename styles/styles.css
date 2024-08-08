@@ -1004,19 +1004,23 @@ hr {
     .bmi-calculator-chart-box {
 
 
-        grid-template-columns: repeat(2, 150px);
+        grid-template-columns: repeat(2, 180px);
 
 
 
     }
 
     .calculator {
-        grid-template-columns: repeat(2, 165px);
-
+    
+        grid-template-columns:  42%;
+        margin: 0 auto;
+        justify-content: center;
+        
     }
 
     .bmi-calculator {
         width: 100%;
+        padding: 10px;
     }
 
     .meet-team-section {
