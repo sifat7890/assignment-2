@@ -543,6 +543,7 @@ img {
 
 .bmi2 p {
     color: #FFFFFF80;
+    text-align: center;
 }
 
 .bmi-section {
@@ -1047,6 +1048,7 @@ hr {
         grid-template-columns: 50%;
         margin: 0 auto;
         justify-content: center;
+        padding: 15px;
 
     }
 
@@ -1300,7 +1302,7 @@ hr {
 
     .bmi2 p {
         margin-left: -10px;
-    
+    text-align: start;
         color:#FFFFFF80 ;
      
     }
