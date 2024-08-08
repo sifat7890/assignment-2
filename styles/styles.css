@@ -921,11 +921,10 @@ hr {
 
         display: flex;
         flex-direction: column;
-        padding: 50px 30px;
+        padding: 30px 30px 15px 30px;
         height: 570px;
         row-gap: 25px;
-        margin-left: 20px;
-        margin-right: 20px;
+      
 
 
     }
@@ -1000,25 +999,30 @@ hr {
         justify-content: space-evenly;
 
     }
+    .bmi-calculator-chart{
+        width: 100%;
+    }
 
     .bmi-section {
         height: 820px;
         margin-bottom: -60px;
+        padding: 20px;
     }
     .bmi{
         width: 100%;
+        
 
     }.bmi2{
-        margin-left: -10px;
+        
     }
     .bmi2 h2
     { 
         width: 100%;
       display: flex;
-        flex-direction: column;
+       
         justify-content: start;
         align-items: start;
-        margin-left: -15px;
+        margin-left: -20px;
         font-size: 34px;
     }
 
@@ -1026,11 +1030,13 @@ hr {
         margin-left: -10px;
         font-size: 14px;
         text-align: start;
+        color:#FFFFFF80 ;
+        margin-bottom: -20px;
     }
     .bmi-calculator-chart-box {
 
 
-        grid-template-columns: repeat(2, 180px);
+        grid-template-columns: repeat(2, 50%);
 
 
 
@@ -1044,15 +1050,11 @@ hr {
 
     }
 
-    .bmi-calculator-description {
-        padding: 20px;
-
-
-    }
+    
 
     .bmi-calculator {
         width: 100%;
-        padding: 10px;
+        
 
     }
 
@@ -1068,10 +1070,13 @@ hr {
 
 
     }
-
+    .meet-section-description{
+        margin-top: 0px;
+    }
     .meet-section {
-
+           margin-top: 40px;
         width: 70%;
+
     }
 
     .meet-section h2 {
