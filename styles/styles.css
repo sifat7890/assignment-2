@@ -541,7 +541,7 @@ img {
     align-items: center;
 }
 
-.bmi p {
+.bmi2 p {
     color: #FFFFFF80;
 }
 
@@ -1044,7 +1044,7 @@ hr {
 
     .calculator {
 
-        grid-template-columns: 42%;
+        grid-template-columns: 50%;
         margin: 0 auto;
         justify-content: center;
 
@@ -1300,6 +1300,9 @@ hr {
 
     .bmi2 p {
         margin-left: -10px;
+    
+        color:#FFFFFF80 ;
+     
     }
 
     .bmi-section {
