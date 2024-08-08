@@ -23,7 +23,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* Shared styles */
@@ -802,6 +802,7 @@ hr {
     color: #8C8C8C;
     text-align: center;
 }
+
 /* For responsive */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -844,11 +845,12 @@ hr {
     }
 
     .button-section {
-        left: 200px;
-        width: 155px;
+        left: 180px;
+       bottom: 350px;
         height: 80px;
         width: 170px;
         padding: 10px;
+        
     }
 
     .button-section-icon {
@@ -996,10 +998,25 @@ hr {
 
     .bmi-section {
         height: 820px;
+        margin-bottom: -30px;
+    }
+
+    .bmi-calculator-chart-box {
+
+
+        grid-template-columns: repeat(2, 150px);
+
+
+
+    }
+
+    .calculator {
+        grid-template-columns: repeat(2, 165px);
+
     }
 
     .bmi-calculator {
-        max-width: 95%;
+        width: 100%;
     }
 
     .meet-team-section {
@@ -1234,7 +1251,7 @@ hr {
     }
 
     .bmi-calculator {
-        max-width: 100%;
+        max-width: 95%;
     }
 
     /* meet team section */
