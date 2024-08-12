@@ -625,7 +625,16 @@ img {
     border-radius: 10px;
     padding-left: 15px;
 }
-
+#calculator-btn{
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 70px;
+    /* margin-top: 25px; */
+    color: white;
+    font-size: 18px;
+}
 /* meet team section */
 .meet-team-section {
     background-color: black;
