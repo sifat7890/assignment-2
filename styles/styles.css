@@ -925,7 +925,7 @@ hr {
         padding: 30px 30px 15px 30px;
         height: 570px;
         row-gap: 25px;
-      
+
 
 
     }
@@ -970,7 +970,7 @@ hr {
     .training-container h1 {
 
         font-size: 2rem;
-       
+
     }
 
     .training-container p {
@@ -1000,7 +1000,8 @@ hr {
         justify-content: space-evenly;
 
     }
-    .bmi-calculator-chart{
+
+    .bmi-calculator-chart {
         width: 100%;
     }
 
@@ -1009,18 +1010,17 @@ hr {
         margin-bottom: -60px;
         padding: 20px;
     }
-    .bmi{
-        width: 100%;
-        
 
-    }.bmi2{
-        
-    }
-    .bmi2 h2
-    { 
+    .bmi {
         width: 100%;
-      display: flex;
-       
+
+
+    }
+
+    .bmi2 h2 {
+        width: 100%;
+        display: flex;
+
         justify-content: start;
         align-items: start;
         margin-left: -20px;
@@ -1031,9 +1031,10 @@ hr {
         margin-left: -10px;
         font-size: 14px;
         text-align: start;
-        color:#FFFFFF80 ;
+        color: #FFFFFF80;
         margin-bottom: -20px;
     }
+
     .bmi-calculator-chart-box {
 
 
@@ -1045,18 +1046,20 @@ hr {
 
     .calculator {
 
-        grid-template-columns: 50%;
         margin: 0 auto;
         justify-content: center;
-        padding: 15px;
+      
 
     }
 
-    
+   .input-section{
+ width: 100%;
+
+   }
 
     .bmi-calculator {
         width: 100%;
-        
+
 
     }
 
@@ -1072,11 +1075,13 @@ hr {
 
 
     }
-    .meet-section-description{
+
+    .meet-section-description {
         margin-top: 0px;
     }
+
     .meet-section {
-           margin-top: 40px;
+        margin-top: 40px;
         width: 70%;
 
     }
@@ -1290,10 +1295,9 @@ hr {
         align-items: flex-start;
     }
 
-    .bmi2 h2
-    {
-        
-      display: flex;
+    .bmi2 h2 {
+
+        display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
@@ -1302,9 +1306,9 @@ hr {
 
     .bmi2 p {
         margin-left: -10px;
-    text-align: start;
-        color:#FFFFFF80 ;
-     
+        text-align: start;
+        color: #FFFFFF80;
+
     }
 
     .bmi-section {
